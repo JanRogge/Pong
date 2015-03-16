@@ -29,7 +29,6 @@ public class Jan_AI implements AiInterface {
 	@Override
 	public void setSide(boolean side) {
 		this.side = side;
-		System.out.println("test");
 	}
 	/**
 	 * Wird aufgerufen sobald ein Punkt erzielt wurde
