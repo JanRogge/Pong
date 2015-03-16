@@ -18,6 +18,7 @@ public class Jan_AI implements AiInterface {
 	private boolean start = true;
 	private boolean alreadyCollided = false;
 	private boolean collision;
+
 	
 	/**
 	 * Setzt die Seite auf der die KI sich befindet
@@ -28,6 +29,7 @@ public class Jan_AI implements AiInterface {
 	@Override
 	public void setSide(boolean side) {
 		this.side = side;
+		System.out.println("test");
 	}
 	/**
 	 * Wird aufgerufen sobald ein Punkt erzielt wurde
